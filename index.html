@@ -400,6 +400,19 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '465163785039821',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v21.0'
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js">
+  </script>
 </body>
 
 </html>
